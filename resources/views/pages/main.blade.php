@@ -7,7 +7,12 @@
             <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
             <li class="breadcrumb-item active">main</li>
         </ol>
-        
+        <div class="row">
+            <div class="form-group col-md-3 mt-3">
+                <h3>Background Image</h3>
+                <img src="{{asset('assets/img/header-bg.jpg')}}" alt="">
+            </div>
+        </div>
     </div>
 </main>
 @endsection
