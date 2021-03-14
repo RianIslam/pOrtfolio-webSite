@@ -13,15 +13,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-Route::get('/', 'PagesController@index');
+Route::get('/', function () {
+    return view('pages.index');
+});
+Route::get('/admin/dashboard', function () {
+    return view('pages.dashboard');
+});
+
+
+// Route::get('/home', 'PagesController@index')->name('home');
+// Route::get('/admin/dashboard', 'PagesController@dashboard')->name('admin.dashboard');
+
+
 
 Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
-
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
