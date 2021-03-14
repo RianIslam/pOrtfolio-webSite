@@ -16,11 +16,11 @@
             <div class="form-group col-md-4 mt-3">
                 <div>
                     <label for="title">Title</label>
-                    <input type="text" class="form-control" id="title" name="title">
+                    <input type="text" class="form-control" id="title" name="title" value="{{$main-> title}}">
                 </div>
                 <div class="mb-3">
                     <label for="title">Sub Title</label>
-                    <input type="text" class="form-control" id="sub_title" name="sub_Title">
+                    <input type="text" class="form-control" id="sub_title" name="sub_Title" value="{{$main-> sub_title}}>
                 </div>
                 <div>
                     <h4>Upload Resume</h4>
