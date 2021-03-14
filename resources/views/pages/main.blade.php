@@ -11,6 +11,7 @@
             <div class="form-group col-md-3 mt-3">
                 <h3>Background Image</h3>
                 <img style="height:30vh" class="img-thumbnail" src="{{asset('assets/img/header-bg.jpg')}}" alt="">
+                <input class="mt-3" type="file" id="bc_img name="bc_img">
             </div>
             <div class="form-group col-md-4 mt-3">
                 <div>
