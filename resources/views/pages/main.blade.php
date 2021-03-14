@@ -12,6 +12,9 @@
                 <h3>Background Image</h3>
                 <img style="height:30vh" class="img-thumbnail" src="{{asset('assets/img/header-bg.jpg')}}" alt="">
             </div>
+            <div class="form-group col-md-4 mt-3">
+                
+            </div>
         </div>
     </div>
 </main>
