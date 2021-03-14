@@ -8,6 +8,8 @@
             <li class="breadcrumb-item active">main</li>
         </ol>
         <form action="{{route('admin.main.update')}}" method="post" enctype="multipart/form-data">
+            @csrf
+            {{method_field('PUT')}}
         <div class="row">
             <div class="form-group col-md-3 mt-3">
                 <h3>Background Image</h3>
