@@ -13,7 +13,18 @@
                 <img style="height:30vh" class="img-thumbnail" src="{{asset('assets/img/header-bg.jpg')}}" alt="">
             </div>
             <div class="form-group col-md-4 mt-3">
-                
+                <div>
+                    <label for="title">Title</label>
+                    <input type="text" class="form-control" id="title" name="title">
+                </div>
+                <div>
+                    <label for="title">Sub Title</label>
+                    <input type="text" class="form-control" id="sub_title" name="sub_Title">
+                </div>
+                <div>
+                    <h4>Upload Resume</h4>
+                    <input type="file" id="resume" name="resume">
+                </div>
             </div>
         </div>
     </div>
